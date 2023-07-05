@@ -2,7 +2,7 @@
 UDP-CUSTOM BY ZXMENMA, GUNAKAN SEBAIK MUNGKIN 
 
 # link 
-<pre><code>https://raw.githubusercontent.com/Menmaqt/udpx/main/udp-custom.sh && bash udp-custom.sh</code></pre>
+<pre><code>wget https://raw.githubusercontent.com/Menmaqt/udpx/main/udp-custom.sh && bash udp-custom.sh</code></pre>
 
 # cara lain 
 step nya ada di bawah 
