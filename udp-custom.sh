@@ -1,4 +1,7 @@
 #!/bin/bash
+# pewarna hidup
+BGreen='\e[1;32m'
+NC='\e[0m'
 
 cd
 rm -rf /root/udp
@@ -7,17 +10,17 @@ mkdir -p /root/udp
 # install udp-custom
 echo ""
 sleep 4
-echo " Install UDP-CUSTOM........" | lolcat
+echo "\e[1;32m Install UDP-CUSTOM........ \e[0m"
 sleep 4
 clear
-echo "Waiting For Installing....." | lolcat
+echo "\e[1;32m Waiting For Installing..... \e[0m"
 clear
 wget -q --show-progress --load-cookies /tmp/cookies.txt "https://raw.githubusercontent.com/Menmaqt/udpx/main/udp-custom-linux-amd64" -O /root/udp/udp-custom && rm -rf /tmp/cookies.txt
 chmod +x /root/udp/udp-custom
 
 # install Config Default Udp
 echo ""
-echo "Preparing To Install Default Config...." | lolcat
+echo "\e[1;32m Preparing To Install Default Config.... \e[0m"
 sleep 4
 clear
 wget -q --show-progress --load-cookies /tmp/cookies.txt "https://raw.githubusercontent.com/Menmaqt/udpx/main/config.json" -O /root/udp/config.json && rm -rf /tmp/cookies.txt
